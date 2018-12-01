@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="springTecnica" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>co.edu.sena.horariosTecnica.domain.Jornada</class>
+    <class>co.edu.sena.horariosTecnica.domain.EspecialidadInstructor</class>
+    <class>co.edu.sena.horariosTecnica.domain.Aprendiz</class>
+    <class>co.edu.sena.horariosTecnica.domain.Instructor</class>
+    <class>co.edu.sena.horariosTecnica.domain.Actividad</class>
+    <class>co.edu.sena.horariosTecnica.domain.Trimestre</class>
+    <class>co.edu.sena.horariosTecnica.domain.ResultadoAprendizaje</class>
+    <class>co.edu.sena.horariosTecnica.domain.Vinculacion</class>
+    <class>co.edu.sena.horariosTecnica.domain.UsuarioHasRol</class>
+    <class>co.edu.sena.horariosTecnica.domain.Ficha</class>
+    <class>co.edu.sena.horariosTecnica.domain.TipoAmbiente</class>
+    <class>co.edu.sena.horariosTecnica.domain.Planeacion</class>
+    <class>co.edu.sena.horariosTecnica.domain.DisponibilidadHoraria</class>
+    <class>co.edu.sena.horariosTecnica.domain.Competencia</class>
+    <class>co.edu.sena.horariosTecnica.domain.Modalidad</class>
+    <class>co.edu.sena.horariosTecnica.domain.ResultadosVistos</class>
+    <class>co.edu.sena.horariosTecnica.domain.DisponibilidadResultados</class>
+    <class>co.edu.sena.horariosTecnica.domain.Sede</class>
+    <class>co.edu.sena.horariosTecnica.domain.PlaneacionTrimestre</class>
+    <class>co.edu.sena.horariosTecnica.domain.Programa</class>
+    <class>co.edu.sena.horariosTecnica.domain.Usuario</class>
+    <class>co.edu.sena.horariosTecnica.domain.Horario</class>
+    <class>co.edu.sena.horariosTecnica.domain.Fase</class>
+    <class>co.edu.sena.horariosTecnica.domain.TipoDocumento</class>
+    <class>co.edu.sena.horariosTecnica.domain.Ambiente</class>
+    <class>co.edu.sena.horariosTecnica.domain.LimitacionAmbiente</class>
+    <class>co.edu.sena.horariosTecnica.domain.TrimestreVigente</class>
+    <class>co.edu.sena.horariosTecnica.domain.EstadoFicha</class>
+    <class>co.edu.sena.horariosTecnica.domain.VersionHorario</class>
+    <class>co.edu.sena.horariosTecnica.domain.EstadoFormacion</class>
+    <class>co.edu.sena.horariosTecnica.domain.Dia</class>
+    <class>co.edu.sena.horariosTecnica.domain.Rol</class>
+    <class>co.edu.sena.horariosTecnica.domain.FichaHasTrimestre</class>
+    <class>co.edu.sena.horariosTecnica.domain.ServidorCorreoElectronico</class>
+    <class>co.edu.sena.horariosTecnica.domain.Proyecto</class>
+    <class>co.edu.sena.horariosTecnica.domain.NivelFormacion</class>
+    <class>co.edu.sena.horariosTecnica.domain.ActividadPlaneacion</class>
+    <class>co.edu.sena.horariosTecnica.domain.Especialidad</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:4306/h_semantica?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="12345"/>
+    </properties>
+  </persistence-unit>
+</persistence>
